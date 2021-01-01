@@ -7,6 +7,7 @@ var lemonqtd = 1;
 function buyLemon() {
     if (money>=10) {
         money = money-10
+        document.querySelector('#money').innerHTML = money;
         lemonqtd++;
         console.log("Limão comprado")
     } else {
