@@ -11,12 +11,12 @@ var lemonPrice = 10;
 function buyLemon() {
     if (money>=lemonPrice) {
         money = money-lemonPrice;
-        document.querySelector('#money').innerHTML = money.toFixed(2);
+        document.querySelector('#money').innerHTML = money.toFixed(2); // Altera o dinheiro atual
         lemonqtd++;
 
         // ALTERAÇÃO DO PREÇO
         lemonPrice = (lemonPrice*1.5);
-        document.querySelector('#lemonPrice').innerHTML = lemonPrice.toFixed(2);
+        document.querySelector('#lemonPrice').innerHTML = lemonPrice.toFixed(2); // Altera o preço do limão
 
         // MENSAGEM DE SUCESSO
         console.log("Limão comprado")
@@ -55,5 +55,5 @@ function sleep(ms) {
 
 function moneyMath() {
     money = money + lemonqtd;
-    document.querySelector('#money').innerHTML = money;
+    document.querySelector('#money').innerHTML = money; // Altera o dinheiro atual
 }
