@@ -1,4 +1,5 @@
 var money = 1;
+var lemonqtd = 0;
 
 // Uma requisição por segundo
 
