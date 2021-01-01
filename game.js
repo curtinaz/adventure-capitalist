@@ -3,12 +3,22 @@ console.log("Versão: 1.0")
 var money = 1;
 var lemonqtd = 1;
 
+// Preços
+
+lemonPrice = 10;
+
 // Comprar estabelecimento
 function buyLemon() {
     if (money>=10) {
         money = money-10
         document.querySelector('#money').innerHTML = money;
         lemonqtd++;
+
+        // ALTERAÇÃO DO PREÇO
+        lemonPrice = lemonPrice * 1,1;
+        document.querySelector('#lemonPrice').innerHTML = lemonPrice;
+
+        // MENSAGEM DE SUCESSO
         console.log("Limão comprado")
     } else {
         console.log("Dinheiro insuficiente")
