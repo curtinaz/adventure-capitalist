@@ -4,6 +4,9 @@ var lemonqtd = 0;
 // Comprar estabelecimento
 
 // Começar o jogo
+function start() {
+    
+}
 
 // Uma requisição por segundo
 
