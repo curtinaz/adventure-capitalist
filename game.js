@@ -31,7 +31,7 @@ function sleep(ms) {
   async function ping() {
     await sleep(1000);
     moneyMath(); // Faz a conta
-    pong();
+    pong(); // Reinicia o ciclo
   }
 
   async function pong() {
