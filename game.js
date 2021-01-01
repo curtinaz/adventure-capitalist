@@ -5,17 +5,17 @@ var lemonqtd = 1;
 
 // Preços
 
-lemonPrice = 10;
+var lemonPrice = 10;
 
 // Comprar estabelecimento
 function buyLemon() {
-    if (money>=10) {
-        money = money-10
+    if (money>=lemonPrice) {
+        money = money-lemonPrice;
         document.querySelector('#money').innerHTML = money;
         lemonqtd++;
 
         // ALTERAÇÃO DO PREÇO
-        lemonPrice = lemonPrice * 1,1;
+        lemonPrice = (lemonPrice*1.5);
         document.querySelector('#lemonPrice').innerHTML = lemonPrice;
 
         // MENSAGEM DE SUCESSO
@@ -29,6 +29,7 @@ function buyLemon() {
 function start() {
     document.querySelector('#lemon').removeAttribute("onClick");
     ping();
+    document.querySelector('#lemonPrice').innerHTML = lemonPrice;
     document.querySelector('#lemon').setAttribute("onClick", "buyLemon()");
 }
 
