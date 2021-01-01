@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #moneyBox {
     display: flex;
     flex-direction: row;
@@ -11,7 +17,7 @@
     cursor: pointer;
 }
 
-#lemonPrice {
+#lemonPriceBox {
     display: flex;
     flex-direction: row;
 }
