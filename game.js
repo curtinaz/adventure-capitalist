@@ -1,6 +1,9 @@
-console.log("Versão: 1.2")
-let version = 1.2;
+let version = 1.3; // VERSÃO ATUAL
+
+console.log(`Versão: ${version}`)
 document.querySelector('#version').innerHTML = version;
+
+// GAME STARTS HERE
 
 var money = 1;
 var lemonqtd = 1;
