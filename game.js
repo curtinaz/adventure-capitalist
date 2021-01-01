@@ -29,13 +29,13 @@ function sleep(ms) {
   }
   
   async function ping() {
-    await sleep(1000);
+    await sleep(1000); // Tempo necessário para cada atualização
     moneyMath(); // Faz a conta
     pong(); // Reinicia o ciclo
   }
 
   async function pong() {
-    await sleep(1000);
+    await sleep(1000); // Tempo necessário para cada atualização
     moneyMath(); // Faz a conta
     ping(); // Reinicia o ciclo
   }
