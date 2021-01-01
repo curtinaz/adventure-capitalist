@@ -3,9 +3,10 @@ var lemonqtd = 1;
 
 // Comprar estabelecimento
 function buyLemon() {
-    if (money=>10) {
+    if (money>=10) {
         money = money-10
         lemonqtd++;
+        console.log("Limão comprado")
     }
 }
 
