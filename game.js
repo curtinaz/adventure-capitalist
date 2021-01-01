@@ -7,6 +7,8 @@ function buyLemon() {
         money = money-10
         lemonqtd++;
         console.log("Limão comprado")
+    } else {
+        console.log("Dinheiro insuficiente")
     }
 }
 
