@@ -55,5 +55,5 @@ function sleep(ms) {
 
 function moneyMath() {
     money = money + lemonqtd;
-    document.querySelector('#money').innerHTML = money; // Altera o dinheiro atual
+    document.querySelector('#money').innerHTML = money.toFixed(2); // Altera o dinheiro atual
 }
