@@ -13,7 +13,7 @@ body {
     align-items: center;
 }
 
-#moneyBox, #lemonPriceBox {
+#moneyBox, #lemonPriceBox, #versionBox {
     display: flex;
     flex-direction: row;
 }
