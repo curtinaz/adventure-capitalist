@@ -1,3 +1,5 @@
+var money = 1;
+
 // Uma requisição por segundo
 
 function sleep(ms) {
