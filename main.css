@@ -1,3 +1,4 @@
-#moneybox {
+#moneyBox {
     display: flex;
+    flex-direction: row;
 }
