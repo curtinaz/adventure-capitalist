@@ -1,6 +1,8 @@
 var money = 1;
 var lemonqtd = 1;
 
+// Comprar estabelecimento
+
 // Uma requisição por segundo
 
 function sleep(ms) {
