@@ -2,6 +2,12 @@ var money = 1;
 var lemonqtd = 1;
 
 // Comprar estabelecimento
+function buyLemon() {
+    if (money=>10) {
+        money = money-10
+        lemonqtd++;
+    }
+}
 
 // Começar o jogo
 function start() {
