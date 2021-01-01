@@ -1,4 +1,4 @@
-console.log("Versão: 1.0")
+console.log("Versão: 1.1")
 
 var money = 1;
 var lemonqtd = 1;
