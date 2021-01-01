@@ -1,4 +1,4 @@
-console.log("Versão: 1.1")
+console.log("Versão: 1.15")
 
 var money = 1;
 var lemonqtd = 1;
@@ -11,12 +11,12 @@ var lemonPrice = 10;
 function buyLemon() {
     if (money>=lemonPrice) {
         money = money-lemonPrice;
-        document.querySelector('#money').innerHTML = money;
+        document.querySelector('#money').innerHTML = money.toFixed(2);
         lemonqtd++;
 
         // ALTERAÇÃO DO PREÇO
         lemonPrice = (lemonPrice*1.5);
-        document.querySelector('#lemonPrice').innerHTML = lemonPrice;
+        document.querySelector('#lemonPrice').innerHTML = lemonPrice.toFixed(2);
 
         // MENSAGEM DE SUCESSO
         console.log("Limão comprado")
