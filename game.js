@@ -16,7 +16,7 @@ function buyLemon() {
 function start() {
     document.querySelector('#lemon').removeAttribute("onClick");
     ping();
-    document.querySelector('#lemon').setAttribute("onClick", "buyLemon");
+    document.querySelector('#lemon').setAttribute("onClick", "buyLemon()");
 }
 
 // Uma requisição por segundo
