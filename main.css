@@ -13,7 +13,7 @@ body {
     align-items: center;
 }
 
-#moneyBox {
+#moneyBox, #lemonPriceBox {
     display: flex;
     flex-direction: row;
 }
@@ -24,9 +24,4 @@ body {
 
 #lemon {
     cursor: pointer;
-}
-
-#lemonPriceBox {
-    display: flex;
-    flex-direction: row;
 }
