@@ -6,3 +6,8 @@
 #lemon {
     cursor: pointer;
 }
+
+#lemonPrice {
+    display: flex;
+    flex-direction: row;
+}
