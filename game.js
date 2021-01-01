@@ -6,8 +6,8 @@ var lemonqtd = 0;
 // Começar o jogo
 function start() {
     document.querySelector('#lemon').removeAttribute("onClick");
-    document.querySelector('#lemon').setAttribute("onClick", "buyLemon");
     ping();
+    document.querySelector('#lemon').setAttribute("onClick", "buyLemon");
 }
 
 // Uma requisição por segundo
