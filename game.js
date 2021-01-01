@@ -1,4 +1,5 @@
 console.log("Versão: 1.0")
+
 var money = 1;
 var lemonqtd = 1;
 
