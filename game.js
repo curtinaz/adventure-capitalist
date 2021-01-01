@@ -32,10 +32,10 @@ function buyLemon() {
 
 // Começar o jogo
 function start() {
-    document.querySelector('#lemon').removeAttribute("onClick");
+    document.querySelector('#lemonBox').removeAttribute("onClick");
     ping();
     document.querySelector('#lemonPrice').innerHTML = lemonPrice.toFixed(2); // Altera o preço do limão
-    document.querySelector('#lemon').setAttribute("onClick", "buyLemon()");
+    document.querySelector('#lemonBox').setAttribute("onClick", "buyLemon()");
 }
 
 // Uma requisição por segundo
