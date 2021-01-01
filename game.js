@@ -1,7 +1,9 @@
 var money = 1;
-var lemonqtd = 1;
+var lemonqtd = 0;
 
 // Comprar estabelecimento
+
+// Começar o jogo
 
 // Uma requisição por segundo
 
