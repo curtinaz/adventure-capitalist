@@ -24,7 +24,6 @@ function sleep(ms) {
 //   Matemática do dinheiro
 
 function moneyMath() {
-    var realMoney = document.querySelector("#money").innerHTML;
     money = money + lemonqtd;
-    realMoney = money;
+    document.querySelector('#money').innerHTML = money;
 }
