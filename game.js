@@ -1,4 +1,6 @@
 console.log("Versão: 1.2")
+let version = 1.2;
+document.querySelector('#version').innerHTML = version;
 
 var money = 1;
 var lemonqtd = 1;
