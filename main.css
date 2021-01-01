@@ -2,6 +2,8 @@
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
+    -ms-touch-select: none;
+    -ms-user-select: none;
 }
 
 body {
