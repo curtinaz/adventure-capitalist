@@ -29,7 +29,7 @@ function buyLemon() {
 function start() {
     document.querySelector('#lemon').removeAttribute("onClick");
     ping();
-    document.querySelector('#lemonPrice').innerHTML = lemonPrice;
+    document.querySelector('#lemonPrice').innerHTML = lemonPrice.toFixed(2); // Altera o preço do limão
     document.querySelector('#lemon').setAttribute("onClick", "buyLemon()");
 }
 
