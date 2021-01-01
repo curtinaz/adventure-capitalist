@@ -30,16 +30,14 @@ function sleep(ms) {
   
   async function ping() {
     await sleep(1000);
-    moneyMath();
-    console.log("ping")
+    moneyMath(); // Faz a conta
     pong();
   }
 
   async function pong() {
     await sleep(1000);
-    moneyMath();
-    console.log("pong")
-    ping();
+    moneyMath(); // Faz a conta
+    ping(); // Reinicia o ciclo
   }
 
 //   Matemática do dinheiro
