@@ -100,7 +100,12 @@ function sleep(ms) {
     saveGame();
     console.log("O progresso foi salvo")
   }
+
 //   Matemática do dinheiro
+
+// Rentabilidade das coisas
+
+
 
 function moneyMath() {
     money = money + lemonqtd;
