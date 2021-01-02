@@ -131,7 +131,7 @@ function agrotoxico() {
 
 // Rentabilidade das coisas
 
-var lemon_rent = lemonqtd*agro // Rentabilidade do Limão
+var lemon_rent = lemonqtd*agro; // Rentabilidade do Limão
 
 //   Matemática do dinheiro
 
