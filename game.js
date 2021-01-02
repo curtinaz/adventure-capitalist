@@ -22,7 +22,12 @@ if (localStorage.getItem("advCap_Save") !== null) {
   lemonqtd = Number(lemonqtd) //contructor number
   lemonPrice = Number(lemonPrice) //contructor number
 
+  // Abaixo, todas as alterações no innerHTML que são necessárias quando um saveGame é encontrado
+
   document.querySelector('#money').innerHTML = money.toFixed(2);
+  document.querySelector('#lemonBox').removeAttribute("onClick");
+  document.querySelector('#lemonPrice').innerHTML = lemonPrice.toFixed(2); // Altera o preço do limão
+  document.querySelector('#lemonBox').setAttribute("onClick", "buyLemon()");
 
   ping(); // INICIA O GAME
   saveGame(); // INICIA O SALVADOR DE PROGRESSO
