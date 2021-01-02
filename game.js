@@ -22,6 +22,10 @@ if (localStorage.getItem("advCap_Save") !== null) {
   lemonqtd = Number(lemonqtd) //contructor number
   lemonPrice = Number(lemonPrice) //contructor number
 
+  // Abaixo, todos os modificadores
+
+  
+
   // Abaixo, todas as alterações no innerHTML que são necessárias quando um saveGame é encontrado
 
   document.querySelector('#money').innerHTML = money.toFixed(2);
@@ -122,7 +126,8 @@ function agrotoxico() {
 
 // Rentabilidade das coisas
 
-var lemon_rent = (lemonqtd*agro); // Rentabilidade do Limão
+var lemon_rent = (lemonqtd*agro) // Rentabilidade do Limão
+lemon_rent = Number(lemon_rent)
 
 //   Matemática do dinheiro
 
