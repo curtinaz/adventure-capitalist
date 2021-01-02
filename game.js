@@ -11,9 +11,19 @@ if (typeof(Storage) !== "undefined") {
   window.alert("Sinto muito, o seu progresso não ficará salvo.")
   }
 
+// LoadState
+
+if (localStorage.getItem("advCap_Save") !== null) {
+  var money = localStorage.getItem("advCap_Save");
+  money = Number(money)
+  document.querySelector('#money').innerHTML = money;
+} else {
+  var money = 1;
+  console.log("Um progesso anterior não foi encontrado")
+}
+
 // GAME STARTS HERE
 
-var money = 1;
 var lemonqtd = 1;
 
 // Preços
@@ -41,15 +51,13 @@ function buyLemon() {
 // Começar o jogo
 function start() {
     document.querySelector('#lemonBox').removeAttribute("onClick");
-    // loadGame();
+
     ping();
     document.querySelector('#lemonPrice').innerHTML = lemonPrice.toFixed(2); // Altera o preço do limão
     document.querySelector('#lemonBox').setAttribute("onClick", "buyLemon()");
 
     saveGame();
 }
-
-// Carregar o jogo
 
 // Uma requisição por segundo
 
