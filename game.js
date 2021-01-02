@@ -16,7 +16,10 @@ if (typeof(Storage) !== "undefined") {
 if (localStorage.getItem("advCap_Save") !== null) {
   var money = localStorage.getItem("advCap_Save");
   var lemonqtd = localStorage.getItem("advCap_lemonqtd");
+
   money = Number(money)
+  lemonqtd = Number(lemonqtd)
+  
   document.querySelector('#money').innerHTML = money;
 
   ping(); // INICIA O GAME
