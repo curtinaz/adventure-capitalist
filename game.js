@@ -92,6 +92,7 @@ function sleep(ms) {
     await sleep(10000); // salva o dinheiro de 10 em 10s
     localStorage.setItem("advCap_Save", money);
     localStorage.setItem("advCap_lemonqtd", lemonqtd);
+    localStorage.setItem("advCap_lemonPrice", lemonPrice);
     saveGame();
     console.log("O progresso foi salvo")
   }
