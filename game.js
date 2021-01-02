@@ -110,6 +110,7 @@ function agrotoxico() {
   if (money>=5000) {
     money = money-5000;
     agro = 1.5;
+    haveAgro = true;
     document.querySelector("#agrotoxico").remove();
   }
 }
