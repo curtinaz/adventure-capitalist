@@ -109,3 +109,5 @@ function moneyMath() {
 
 
 // Sounds
+
+let kashing = document.querySelector("#kashing")
