@@ -16,6 +16,7 @@ if (typeof(Storage) !== "undefined") {
 if (localStorage.getItem("advCap_Save") !== null) {
   var money = localStorage.getItem("advCap_Save");
   var lemonqtd = localStorage.getItem("advCap_lemonqtd");
+  var lemonPrice = localStorage.getItem("advCap_lemonPrice");
 
   money = Number(money) //contructor number
   lemonqtd = Number(lemonqtd) //contructor number
