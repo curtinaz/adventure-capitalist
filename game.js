@@ -20,7 +20,7 @@ if (localStorage.getItem("advCap_Save") !== null) {
   money = Number(money) //contructor number
   lemonqtd = Number(lemonqtd) //contructor number
 
-  document.querySelector('#money').innerHTML = money;
+  document.querySelector('#money').innerHTML = money.toFixed(2);
 
   ping(); // INICIA O GAME
   saveGame(); // INICIA O SALVADOR DE PROGRESSO
