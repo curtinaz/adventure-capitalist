@@ -17,9 +17,9 @@ if (localStorage.getItem("advCap_Save") !== null) {
   var money = localStorage.getItem("advCap_Save");
   var lemonqtd = localStorage.getItem("advCap_lemonqtd");
 
-  money = Number(money)
+  money = Number(money) //contructor number
   lemonqtd = Number(lemonqtd)
-  
+
   document.querySelector('#money').innerHTML = money;
 
   ping(); // INICIA O GAME
