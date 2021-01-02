@@ -1,4 +1,4 @@
-let version = "1.8.2 Bugfix"; // VERSÃO ATUAL
+let version = "1.8.3"; // VERSÃO ATUAL
 
 console.log(`Versão: ${version}`)
 document.querySelector('#version').innerHTML = version;
