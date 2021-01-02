@@ -17,14 +17,16 @@ if (localStorage.getItem("advCap_Save") !== null) {
   var money = localStorage.getItem("advCap_Save");
   money = Number(money)
   document.querySelector('#money').innerHTML = money;
+  moneyMath();
 } else {
-  var money = 1;
   console.log("Um progesso anterior não foi encontrado")
+  var lemonqtd = 1;
+  var money = 1;
 }
 
 // GAME STARTS HERE
 
-var lemonqtd = 1;
+
 
 // Preços
 
@@ -77,9 +79,12 @@ function sleep(ms) {
     ping(); // Reinicia o ciclo
   }
 
+// Variáveis de saveGame 
+
   async function saveGame() {
     await sleep(10000); // salva o dinheiro de 10 em 10s
     localStorage.setItem("advCap_Save", money);
+    localStorage.setItem("advCap_lemonqtd", lemonqtd )
     saveGame();
     console.log("O progresso foi salvo")
   }
