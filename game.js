@@ -38,6 +38,8 @@ if (localStorage.getItem("advCap_Save") !== null) {
   var money = 1;
   var lemonPrice = 10;
   var agro = 1;
+
+  var haveAgro = false;
 }
 
 // GAME STARTS HERE
