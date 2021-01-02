@@ -24,7 +24,7 @@ if (localStorage.getItem("advCap_Save") !== null) {
 
   // Abaixo, todos os modificadores
 
-  
+  var agro = localStorage.getItem("advCap_agro");
 
   // Abaixo, todas as alterações no innerHTML que são necessárias quando um saveGame é encontrado
 
@@ -105,7 +105,7 @@ function sleep(ms) {
     localStorage.setItem("advCap_lemonqtd", lemonqtd);
     localStorage.setItem("advCap_lemonPrice", lemonPrice);
 
-    localStorage.setItem("advCap_haveAgro", haveAgro); // O usuário tem o modificador Agro?
+    localStorage.setItem("advCap_agro", agro); // Valor do modificador agro
 
     saveGame();
     console.log("O progresso foi salvo")
@@ -119,7 +119,6 @@ function agrotoxico() {
   if (money>=5000) {
     money = money-5000;
     agro = 1.5;
-    haveAgro = true;
     document.querySelector("#agrotoxico").remove();
   }
 }
