@@ -44,6 +44,7 @@ function start() {
     ping();
     document.querySelector('#lemonPrice').innerHTML = lemonPrice.toFixed(2); // Altera o preço do limão
     document.querySelector('#lemonBox').setAttribute("onClick", "buyLemon()");
+    saveGame();
 }
 
 // Uma requisição por segundo
