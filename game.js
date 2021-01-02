@@ -103,7 +103,11 @@ function sleep(ms) {
 
 
 
+// Modificadores de Rentabilidade
 
+function agrotoxico() {
+  
+}
 
 // Rentabilidade das coisas
 
