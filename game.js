@@ -20,6 +20,7 @@ if (localStorage.getItem("advCap_Save") !== null) {
 
   money = Number(money) //contructor number
   lemonqtd = Number(lemonqtd) //contructor number
+  lemonPrice = Number(lemonPrice) //contructor number
 
   document.querySelector('#money').innerHTML = money.toFixed(2);
 
@@ -30,15 +31,11 @@ if (localStorage.getItem("advCap_Save") !== null) {
   console.log("Um progesso anterior não foi encontrado")
   var lemonqtd = 1;
   var money = 1;
+  var lemonPrice = 10;
 }
 
 // GAME STARTS HERE
 
-
-
-// Preços
-
-var lemonPrice = 10;
 
 // Comprar estabelecimento
 function buyLemon() {
