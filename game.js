@@ -24,7 +24,8 @@ if (localStorage.getItem("advCap_Save") !== null) {
 
   // Abaixo, todos os modificadores
 
-  var agro = localStorage.getItem("advCap_agro");
+  var agro = 1;
+  agro = localStorage.getItem("advCap_agro");
   agro = Number(agro);
 
   if (agro==1.5) {
