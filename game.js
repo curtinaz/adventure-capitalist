@@ -18,7 +18,9 @@ if (localStorage.getItem("advCap_Save") !== null) {
   var lemonqtd = localStorage.getItem("advCap_lemonqtd");
   money = Number(money)
   document.querySelector('#money').innerHTML = money;
-  ping();
+
+  ping(); // INICIA O GAME
+
 } else {
   console.log("Um progesso anterior não foi encontrado")
   var lemonqtd = 1;
