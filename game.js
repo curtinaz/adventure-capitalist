@@ -41,9 +41,17 @@ function buyLemon() {
 // Começar o jogo
 function start() {
     document.querySelector('#lemonBox').removeAttribute("onClick");
+
+    if (localStorage.getItem("advCap_Save") !== null) {
+      money = localStorage.getItem("advCap_Save");
+    } else {
+      console.log("Um progesso anterior não foi encontrado")
+    }
+
     ping();
     document.querySelector('#lemonPrice').innerHTML = lemonPrice.toFixed(2); // Altera o preço do limão
     document.querySelector('#lemonBox').setAttribute("onClick", "buyLemon()");
+
     saveGame();
 }
 
@@ -69,7 +77,7 @@ function sleep(ms) {
     await sleep(10000); // salva o dinheiro de 10 em 10s
     localStorage.setItem("advCap_Save", money);
     saveGame();
-    console.log("Reiniciou o ciclo")
+    console.log("O progresso foi salvo")
   }
 //   Matemática do dinheiro
 
