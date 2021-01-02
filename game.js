@@ -64,6 +64,12 @@ function sleep(ms) {
     ping(); // Reinicia o ciclo
   }
 
+  async function saveGame() {
+    await sleep(10000); // salva o dinheiro de 10 em 10s
+    localStorage.setItem("advCap_Save", money);
+    saveGame();
+    console.log("Reiniciou o ciclo")
+  }
 //   Matemática do dinheiro
 
 function moneyMath() {
