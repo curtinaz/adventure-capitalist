@@ -15,9 +15,10 @@ if (typeof(Storage) !== "undefined") {
 
 if (localStorage.getItem("advCap_Save") !== null) {
   var money = localStorage.getItem("advCap_Save");
+  var lemonqtd = localStorage.getItem("advCap_lemonqtd");
   money = Number(money)
   document.querySelector('#money').innerHTML = money;
-  moneyMath();
+  ping();
 } else {
   console.log("Um progesso anterior não foi encontrado")
   var lemonqtd = 1;
@@ -84,7 +85,7 @@ function sleep(ms) {
   async function saveGame() {
     await sleep(10000); // salva o dinheiro de 10 em 10s
     localStorage.setItem("advCap_Save", money);
-    localStorage.setItem("advCap_lemonqtd", lemonqtd )
+    localStorage.setItem("advCap_lemonqtd", lemonqtd);
     saveGame();
     console.log("O progresso foi salvo")
   }
