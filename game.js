@@ -25,6 +25,7 @@ if (localStorage.getItem("advCap_Save") !== null) {
   // Abaixo, todos os modificadores
 
   var agro = localStorage.getItem("advCap_agro");
+  agro = Number(agro);
 
   // Abaixo, todas as alterações no innerHTML que são necessárias quando um saveGame é encontrado
 
