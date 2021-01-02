@@ -27,6 +27,10 @@ if (localStorage.getItem("advCap_Save") !== null) {
   var agro = localStorage.getItem("advCap_agro");
   agro = Number(agro);
 
+  if (agro==1.5) {
+    document.querySelector("#agrotoxico").remove();
+  }
+
   // Abaixo, todas as alterações no innerHTML que são necessárias quando um saveGame é encontrado
 
   document.querySelector('#money').innerHTML = money.toFixed(2);
@@ -43,8 +47,6 @@ if (localStorage.getItem("advCap_Save") !== null) {
   var money = 1;
   var lemonPrice = 10;
   var agro = 1;
-
-  var haveAgro = false;
 }
 
 // GAME STARTS HERE
@@ -121,13 +123,15 @@ function agrotoxico() {
     money = money-5000;
     agro = 1.5;
     document.querySelector("#agrotoxico").remove();
+    console.log("Agro foi comprado");
+  } else {
+    console.log("Dinheiro Insuficiente");
   }
 }
 
 // Rentabilidade das coisas
 
-var lemon_rent = (lemonqtd*agro) // Rentabilidade do Limão
-lemon_rent = Number(lemon_rent)
+var lemon_rent = ((lemonqtd*agro)) // Rentabilidade do Limão
 
 //   Matemática do dinheiro
 
