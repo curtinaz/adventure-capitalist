@@ -27,7 +27,7 @@ if (localStorage.getItem("advCap_Save") !== null) {
   agro = localStorage.getItem("advCap_agro");
   agro = Number(agro);
 
-  if (agro!==1 or agro!==1.5) {
+  if (agro!==1||agro!==1.5) {
     agro = 1;
   }
 
