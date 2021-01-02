@@ -41,13 +41,15 @@ function buyLemon() {
 // Começar o jogo
 function start() {
     document.querySelector('#lemonBox').removeAttribute("onClick");
-    loadGame();
+    // loadGame();
     ping();
     document.querySelector('#lemonPrice').innerHTML = lemonPrice.toFixed(2); // Altera o preço do limão
     document.querySelector('#lemonBox').setAttribute("onClick", "buyLemon()");
 
     saveGame();
 }
+
+// Carregar o jogo
 
 // Uma requisição por segundo
 
