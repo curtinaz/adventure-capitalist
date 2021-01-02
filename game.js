@@ -20,6 +20,7 @@ if (localStorage.getItem("advCap_Save") !== null) {
   document.querySelector('#money').innerHTML = money;
 
   ping(); // INICIA O GAME
+  saveGame(); // INICIA O SALVADOR DE PROGRESSO
 
 } else {
   console.log("Um progesso anterior não foi encontrado")
