@@ -37,6 +37,7 @@ if (localStorage.getItem("advCap_Save") !== null) {
   var lemonqtd = 1;
   var money = 1;
   var lemonPrice = 10;
+  var agro = 1;
 }
 
 // GAME STARTS HERE
@@ -106,7 +107,11 @@ function sleep(ms) {
 // Modificadores de Rentabilidade
 
 function agrotoxico() {
-  
+  if (money>=5000) {
+    money = money-5000;
+    agro = 1.5;
+    document.querySelector("#agrotoxico").remove();
+  }
 }
 
 // Rentabilidade das coisas
