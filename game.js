@@ -101,8 +101,8 @@ function sleep(ms) {
     localStorage.setItem("advCap_lemonqtd", lemonqtd);
     localStorage.setItem("advCap_lemonPrice", lemonPrice);
 
-    localStorage.setItem("advCap_haveAgro", haveAgro);
-    
+    localStorage.setItem("advCap_haveAgro", haveAgro); // O usuário tem o modificador Agro?
+
     saveGame();
     console.log("O progresso foi salvo")
   }
