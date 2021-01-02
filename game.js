@@ -1,4 +1,4 @@
-let version = "1.8.1 Bugfix"; // VERSÃO ATUAL
+let version = "1.8.2 Bugfix"; // VERSÃO ATUAL
 
 console.log(`Versão: ${version}`)
 document.querySelector('#version').innerHTML = version;
@@ -26,10 +26,6 @@ if (localStorage.getItem("advCap_Save") !== null) {
 
   agro = localStorage.getItem("advCap_agro");
   agro = Number(agro);
-
-  if (agro!==1||agro!==1.5) {
-    agro = 1;
-  }
 
   if (agro==1.5) {
     document.querySelector("#agrotoxico").remove();
