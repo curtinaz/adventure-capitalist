@@ -100,6 +100,9 @@ function sleep(ms) {
     localStorage.setItem("advCap_Save", money);
     localStorage.setItem("advCap_lemonqtd", lemonqtd);
     localStorage.setItem("advCap_lemonPrice", lemonPrice);
+
+    localStorage.setItem("advCap_haveAgro", haveAgro);
+    
     saveGame();
     console.log("O progresso foi salvo")
   }
