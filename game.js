@@ -101,11 +101,15 @@ function sleep(ms) {
     console.log("O progresso foi salvo")
   }
 
-//   Matemática do dinheiro
+
+
+
 
 // Rentabilidade das coisas
 
+var lemon_rent = (lemonqtd*agro);
 
+//   Matemática do dinheiro
 
 function moneyMath() {
     money = money + lemonqtd;
