@@ -27,7 +27,7 @@ if (localStorage.getItem("advCap_Save") !== null) {
   ping(); // INICIA O GAME
   saveGame(); // INICIA O SALVADOR DE PROGRESSO
 
-} else {
+} else { // OQUE ACONTECE QUANDO UM PROGRESSO NÃO É ENCONTRADO
   console.log("Um progesso anterior não foi encontrado")
   var lemonqtd = 1;
   var money = 1;
