@@ -18,7 +18,7 @@ if (localStorage.getItem("advCap_Save") !== null) {
   var lemonqtd = localStorage.getItem("advCap_lemonqtd");
 
   money = Number(money) //contructor number
-  lemonqtd = Number(lemonqtd)
+  lemonqtd = Number(lemonqtd) //contructor number
 
   document.querySelector('#money').innerHTML = money;
 
