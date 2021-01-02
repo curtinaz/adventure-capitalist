@@ -3,6 +3,14 @@ let version = 1.5; // VERSÃO ATUAL
 console.log(`Versão: ${version}`)
 document.querySelector('#version').innerHTML = version;
 
+// SaveState
+
+if (typeof(Storage) !== "undefined") {
+    // Sem problemas, seu progresso ficará salvo.
+  } else {
+  window.alert("Sinto muito, o seu progresso não ficará salvo.")
+  }
+
 // GAME STARTS HERE
 
 var money = 1;
