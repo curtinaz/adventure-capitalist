@@ -50,7 +50,7 @@ function buyLemon() {
         lemonqtd++;
 
         // ALTERAÇÃO DO PREÇO
-        lemonPrice = (lemonPrice*1.5);
+        lemonPrice = (lemonPrice*1.1);
         document.querySelector('#lemonPrice').innerHTML = lemonPrice.toFixed(2); // Altera o preço do limão
 
         // MENSAGEM DE SUCESSO
