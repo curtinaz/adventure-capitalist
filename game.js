@@ -106,3 +106,6 @@ function moneyMath() {
     money = money + lemonqtd;
     document.querySelector('#money').innerHTML = money.toFixed(2); // Altera o dinheiro atual
 }
+
+
+// Sounds
