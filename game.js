@@ -48,7 +48,7 @@ function buyLemon() {
         money = money-lemonPrice;
         document.querySelector('#money').innerHTML = money.toFixed(2); // Altera o dinheiro atual
         lemonqtd++;
-        kashing.play("./sounds/kashing.mp3")
+        kashing.play();
 
         // ALTERAÇÃO DO PREÇO
         lemonPrice = (lemonPrice*1.1);
