@@ -41,13 +41,7 @@ function buyLemon() {
 // Começar o jogo
 function start() {
     document.querySelector('#lemonBox').removeAttribute("onClick");
-
-    if (localStorage.getItem("advCap_Save") !== null) {
-      money = localStorage.getItem("advCap_Save");
-    } else {
-      console.log("Um progesso anterior não foi encontrado")
-    }
-
+    loadGame();
     ping();
     document.querySelector('#lemonPrice').innerHTML = lemonPrice.toFixed(2); // Altera o preço do limão
     document.querySelector('#lemonBox').setAttribute("onClick", "buyLemon()");
