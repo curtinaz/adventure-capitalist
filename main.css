@@ -40,6 +40,10 @@ section {
     width: 100%;
 }
 
+.product_info p {
+    position: absolute;
+}
+
 .product {
     border: 1px black solid;
     border-radius: 5px;
