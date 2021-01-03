@@ -32,8 +32,8 @@ section {
     flex-direction: row;
 }
 
-.product_info {
-    width: 5%;
+/* .product_info {
+    width: 10%;
 }
 
 .product_info img {
@@ -43,7 +43,7 @@ section {
 .product_info p {
     position: absolute;
     display: none;
-}
+} */
 
 .product {
     border: 1px black solid;
