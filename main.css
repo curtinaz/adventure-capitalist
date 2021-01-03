@@ -32,7 +32,9 @@ section {
     flex-direction: row;
 }
 
-
+.product_info {
+    width: 5%;
+}
 
 .product {
     border: 1px black solid;
