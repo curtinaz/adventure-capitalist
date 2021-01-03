@@ -42,6 +42,7 @@ section {
 
 .product_info p {
     position: absolute;
+    display: none;
 }
 
 .product {
