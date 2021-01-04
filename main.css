@@ -27,7 +27,7 @@ section {
     margin: 30px 0;
 }
 
-#moneyBox, #lemonPriceBox, #versionBox, section {
+#moneyBox, .lemonPriceBox, #versionBox, section {
     display: flex;
     flex-direction: row;
 }
