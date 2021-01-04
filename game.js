@@ -59,8 +59,8 @@ if (localStorage.getItem("advCap_Save") !== null) {
   var lemonqtd = 1;
   var money = 1;
   var lemonPrice = 10;
-  var agro = 1;
 
+  var agro = 1;
   var lemon_dezena = 1;
 }
 
