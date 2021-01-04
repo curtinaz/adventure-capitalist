@@ -18,8 +18,9 @@ if (localStorage.getItem("advCap_Save") !== null) {
   var lemonqtd = localStorage.getItem("advCap_lemonqtd");
   var lemonPrice = localStorage.getItem("advCap_lemonPrice");
 
-  var appleqtd = localStorage.getItem("advCap_lemonqtd");
-  var applePrice = localStorage.getItem("advCap_lemonPrice");
+  var appleqtd = localStorage.getItem("advCap_appleqtd");
+  var applePrice = localStorage.getItem("advCap_applePrice");
+  var appleRent = localStorage.getItem("advCap_appleRent");
 
   money = Number(money) //contructor number
   lemonqtd = Number(lemonqtd) //contructor number
@@ -184,8 +185,8 @@ function sleep(ms) {
     localStorage.setItem("advCap_lemonqtd", lemonqtd);
     localStorage.setItem("advCap_lemonPrice", lemonPrice);
 
-    localStorage.setItem("advCap_lemonqtd", appleqtd);
-    localStorage.setItem("advCap_lemonPrice", applePrice);
+    localStorage.setItem("advCap_appleqtd", appleqtd);
+    localStorage.setItem("advCap_applePrice", applePrice);
 
     localStorage.setItem("advCap_agro", agro); // Valor do modificador agro
     localStorage.setItem("advCap_dezena", lemon_dezena); // Valor do modificador agro
@@ -216,7 +217,7 @@ var lemon_rent = lemonqtd*agro // Rentabilidade do Limão
 //   Matemática do dinheiro
 
 function moneyMath() {
-    money = money + ((lemonqtd*agro)*lemon_dezena);
+    money = money + ((lemonqtd*agro)*lemon_dezena) + applerent;
     document.querySelector('#money').innerHTML = money.toFixed(2); // Altera o dinheiro atual
     document.querySelector('#moneypersecond').innerHTML = ((lemonqtd*agro)*lemon_dezena).toFixed(2); // Altera o dinheiro atual
 }
