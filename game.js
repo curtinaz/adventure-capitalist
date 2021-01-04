@@ -18,9 +18,15 @@ if (localStorage.getItem("advCap_Save") !== null) {
   var lemonqtd = localStorage.getItem("advCap_lemonqtd");
   var lemonPrice = localStorage.getItem("advCap_lemonPrice");
 
+  var appleqtd = localStorage.getItem("advCap_lemonqtd");
+  var applePrice = localStorage.getItem("advCap_lemonPrice");
+
   money = Number(money) //contructor number
   lemonqtd = Number(lemonqtd) //contructor number
   lemonPrice = Number(lemonPrice) //contructor number
+
+  appleqtd = Number(lemonqtd) //contructor number
+  applePrice = Number(lemonPrice) //contructor number
 
   // Abaixo, todos os modificadores
 
