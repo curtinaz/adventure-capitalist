@@ -111,7 +111,7 @@ function buyApple() {
       kashing.play();
 
       // ALTERAÇÃO DO PREÇO
-      applePrice = (lemonPrice*1.1);
+      applePrice = (applePrice*1.1);
       document.querySelector('#lemonPrice').innerHTML = lemonPrice.toFixed(2); // Altera o preço do limão
 
       // Quantidade de limões, dá um bônus para o jogador
