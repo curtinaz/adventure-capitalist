@@ -1,4 +1,4 @@
-let version = "1.9.1"; // VERSÃO ATUAL
+let version = "1.9.5"; // VERSÃO ATUAL
 
 console.log(`Versão: ${version}`)
 document.querySelector('#version').innerHTML = version;
@@ -89,6 +89,7 @@ if (localStorage.getItem("advCap_Save") !== null) {
 
 function resetMoney() {
   money = 1;
+  console.log("resetado")
 }
 
 // Comprar estabelecimento
