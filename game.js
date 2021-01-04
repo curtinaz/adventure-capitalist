@@ -112,7 +112,7 @@ function buyApple() {
 
       // ALTERAÇÃO DO PREÇO
       applePrice = (applePrice*1.1);
-      document.querySelector('#lemonPrice').innerHTML = lemonPrice.toFixed(2); // Altera o preço do limão
+      document.querySelector('#applePrice').innerHTML = lemonPrice.toFixed(2); // Altera o preço do limão
 
       // Quantidade de limões, dá um bônus para o jogador
       if (lemonqtd>=10) {
