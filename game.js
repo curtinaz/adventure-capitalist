@@ -115,21 +115,21 @@ function buyApple() {
       document.querySelector('#applePrice').innerHTML = applePrice.toFixed(2); // Altera o preço do limão
 
       // Quantidade de limões, dá um bônus para o jogador
-      if (lemonqtd>=10) {
-        lemon_dezena=1.1;
-      }
+      // if (lemonqtd>=10) {
+      //   lemon_dezena=1.1;
+      // }
 
-      if (lemonqtd>=25) {
-        lemon_dezena=1.25;
-      }
+      // if (lemonqtd>=25) {
+      //   lemon_dezena=1.25;
+      // }
 
-      if (lemonqtd>=50) {
-        lemon_dezena=1.5;
-      }
+      // if (lemonqtd>=50) {
+      //   lemon_dezena=1.5;
+      // }
 
-      if (lemonqtd>=100) {
-        lemon_dezena=2;
-      }
+      // if (lemonqtd>=100) {
+      //   lemon_dezena=2;
+      // }
 
       // MENSAGEM DE SUCESSO
       console.log("Limão comprado")
