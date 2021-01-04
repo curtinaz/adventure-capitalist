@@ -28,6 +28,7 @@ if (localStorage.getItem("advCap_Save") !== null) {
 
   appleqtd = Number(appleqtd) //contructor number
   applePrice = Number(applePrice) //contructor number
+  applePrice = Number(appleRent) //contructor number
 
   // Abaixo, todos os modificadores
 
