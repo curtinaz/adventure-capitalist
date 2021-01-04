@@ -104,7 +104,7 @@ function buyLemon() {
 }
 
 function buyApple() {
-  if (money>=lemonPrice) {
+  if (money>=ApplePrice) {
       money = money-lemonPrice;
       document.querySelector('#money').innerHTML = money.toFixed(2); // Altera o dinheiro atual
       lemonqtd++;
