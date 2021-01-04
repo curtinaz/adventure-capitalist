@@ -103,6 +103,41 @@ function buyLemon() {
     }
 }
 
+function buyApple() {
+  if (money>=lemonPrice) {
+      money = money-lemonPrice;
+      document.querySelector('#money').innerHTML = money.toFixed(2); // Altera o dinheiro atual
+      lemonqtd++;
+      kashing.play();
+
+      // ALTERAÇÃO DO PREÇO
+      lemonPrice = (lemonPrice*1.1);
+      document.querySelector('#lemonPrice').innerHTML = lemonPrice.toFixed(2); // Altera o preço do limão
+
+      // Quantidade de limões, dá um bônus para o jogador
+      if (lemonqtd>=10) {
+        lemon_dezena=1.1;
+      }
+
+      if (lemonqtd>=25) {
+        lemon_dezena=1.25;
+      }
+
+      if (lemonqtd>=50) {
+        lemon_dezena=1.5;
+      }
+
+      if (lemonqtd>=100) {
+        lemon_dezena=2;
+      }
+
+      // MENSAGEM DE SUCESSO
+      console.log("Limão comprado")
+  } else {
+      console.log("Dinheiro insuficiente")
+  }
+}
+
 // Começar o jogo
 function start() {
     document.querySelector('#lemonBox').removeAttribute("onClick");
