@@ -35,6 +35,15 @@ if (localStorage.getItem("advCap_Save") !== null) {
     document.querySelector("#agrotoxico").remove();
   }
 
+  // =================== 
+
+  lemon_dezena = localStorage.getItem("advCap_agro");
+  lemon_dezena = Number(lemon_dezena);
+
+  if (lemon_dezena==0) {
+    lemon_dezena = 1;
+  }
+
   // Abaixo, todas as alterações no innerHTML que são necessárias quando um saveGame é encontrado
 
   document.querySelector('#money').innerHTML = money.toFixed(2);
@@ -51,6 +60,8 @@ if (localStorage.getItem("advCap_Save") !== null) {
   var money = 1;
   var lemonPrice = 10;
   var agro = 1;
+
+  var lemon_dezena = 1;
 }
 
 // GAME STARTS HERE
