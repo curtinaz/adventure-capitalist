@@ -68,6 +68,11 @@ function buyLemon() {
         lemonPrice = (lemonPrice*1.1);
         document.querySelector('#lemonPrice').innerHTML = lemonPrice.toFixed(2); // Altera o preço do limão
 
+        // A CADA 10 Limões, bônus de x1.1 na rentabilidade
+        if (lemonqtd>=10) {
+          lemon_dezena=1.1;
+        }
+
         // MENSAGEM DE SUCESSO
         console.log("Limão comprado")
     } else {
