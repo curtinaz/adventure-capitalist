@@ -69,7 +69,7 @@ if (localStorage.getItem("advCap_Save") !== null) {
 
 } else { // OQUE ACONTECE QUANDO UM PROGRESSO NÃO É ENCONTRADO
   console.log("Um progesso anterior não foi encontrado")
-  
+
   var money = 1;
   var lemonqtd = 1;
   var lemonPrice = 10;
@@ -228,9 +228,9 @@ var lemon_rent = lemonqtd*agro // Rentabilidade do Limão
 //   Matemática do dinheiro
 
 function moneyMath() {
-    money = money + ((lemonqtd*agro)*lemon_dezena) + appleRent;
+    money = money + appleRent + ((lemonqtd*agro)*lemon_dezena);
     document.querySelector('#money').innerHTML = money.toFixed(2); // Altera o dinheiro atual
-    document.querySelector('#moneypersecond').innerHTML = ((lemonqtd*agro)*lemon_dezena).toFixed(2); // Altera o dinheiro atual
+    document.querySelector('#moneypersecond').innerHTML = appleRent+((lemonqtd*agro)*lemon_dezena).toFixed(2); // Altera o dinheiro atual
 }
 
 
