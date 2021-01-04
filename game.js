@@ -39,6 +39,10 @@ if (localStorage.getItem("advCap_Save") !== null) {
     agro = 1;
   }
 
+  if (agro==0) {
+    agro = 1;
+  }
+
   if (agro==1.5) {
     document.querySelector("#agrotoxico").remove();
   }
@@ -57,6 +61,7 @@ if (localStorage.getItem("advCap_Save") !== null) {
   document.querySelector('#money').innerHTML = money.toFixed(2);
   document.querySelector('#lemonBox').removeAttribute("onClick");
   document.querySelector('#lemonPrice').innerHTML = lemonPrice.toFixed(2); // Altera o preço do limão
+  document.querySelector('#applePrice').innerHTML = applePrice.toFixed(2);
   document.querySelector('#lemonBox').setAttribute("onClick", "buyLemon()");
 
   ping(); // INICIA O GAME
@@ -220,7 +225,7 @@ var lemon_rent = lemonqtd*agro // Rentabilidade do Limão
 //   Matemática do dinheiro
 
 function moneyMath() {
-    money = money + ((lemonqtd*agro)*lemon_dezena) + applerent;
+    money = money + ((lemonqtd*agro)*lemon_dezena) + appleRent;
     document.querySelector('#money').innerHTML = money.toFixed(2); // Altera o dinheiro atual
     document.querySelector('#moneypersecond').innerHTML = ((lemonqtd*agro)*lemon_dezena).toFixed(2); // Altera o dinheiro atual
 }
