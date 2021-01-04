@@ -85,6 +85,12 @@ if (localStorage.getItem("advCap_Save") !== null) {
 // GAME STARTS HERE
 
 
+// Resetar dinheiro
+
+function resetMoney() {
+  money = 1;
+}
+
 // Comprar estabelecimento
 function buyLemon() {
     if (money>=lemonPrice) {
