@@ -178,6 +178,9 @@ function sleep(ms) {
     localStorage.setItem("advCap_lemonqtd", lemonqtd);
     localStorage.setItem("advCap_lemonPrice", lemonPrice);
 
+    localStorage.setItem("advCap_lemonqtd", appleqtd);
+    localStorage.setItem("advCap_lemonPrice", applePrice);
+
     localStorage.setItem("advCap_agro", agro); // Valor do modificador agro
     localStorage.setItem("advCap_dezena", lemon_dezena); // Valor do modificador agro
 
