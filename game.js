@@ -72,6 +72,8 @@ if (localStorage.getItem("advCap_Save") !== null) {
   var lemonqtd = 1;
   var money = 1;
   var lemonPrice = 10;
+
+  var appleqtd = 0;
   var applePrice = 250;
   var appleRent = 0;
 
@@ -146,7 +148,6 @@ function buyApple() {
       //   lemon_dezena=2;
       // }
 
-      appleRent = Number(appleRent);
       appleRent = appleqtd*25;
 
       // MENSAGEM DE SUCESSO
