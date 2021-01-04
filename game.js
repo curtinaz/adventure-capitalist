@@ -107,7 +107,7 @@ function buyApple() {
   if (money>=applePrice) {
       money = money-applePrice;
       document.querySelector('#money').innerHTML = money.toFixed(2); // Altera o dinheiro atual
-      lemonqtd++;
+      appleqtd++;
       kashing.play();
 
       // ALTERAÇÃO DO PREÇO
