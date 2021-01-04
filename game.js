@@ -146,6 +146,7 @@ function buyApple() {
       //   lemon_dezena=2;
       // }
 
+      appleRent = Number(appleRent);
       appleRent = appleqtd*25;
 
       // MENSAGEM DE SUCESSO
