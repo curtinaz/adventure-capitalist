@@ -69,8 +69,9 @@ if (localStorage.getItem("advCap_Save") !== null) {
 
 } else { // OQUE ACONTECE QUANDO UM PROGRESSO NÃO É ENCONTRADO
   console.log("Um progesso anterior não foi encontrado")
-  var lemonqtd = 1;
+  
   var money = 1;
+  var lemonqtd = 1;
   var lemonPrice = 10;
 
   var appleqtd = 0;
