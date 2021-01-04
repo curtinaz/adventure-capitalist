@@ -37,7 +37,7 @@ if (localStorage.getItem("advCap_Save") !== null) {
 
   // =================== 
 
-  lemon_dezena = localStorage.getItem("advCap_agro");
+  lemon_dezena = localStorage.getItem("advCap_dezena");
   lemon_dezena = Number(lemon_dezena);
 
   if (lemon_dezena==0) {
@@ -141,6 +141,7 @@ function sleep(ms) {
     localStorage.setItem("advCap_lemonPrice", lemonPrice);
 
     localStorage.setItem("advCap_agro", agro); // Valor do modificador agro
+    localStorage.setItem("advCap_dezena", lemon_dezena); // Valor do modificador agro
 
     saveGame();
     console.log("O progresso foi salvo")
