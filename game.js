@@ -18,7 +18,7 @@ if (localStorage.getItem("advCap_Save") !== null) {
   var lemonqtd = Number(localStorage.getItem("advCap_lemonqtd"));
   var lemonPrice = Number(localStorage.getItem("advCap_lemonPrice"));
 
-  var appleqtd = localStorage.getItem("advCap_appleqtd");
+  var appleqtd = Number(localStorage.getItem("advCap_appleqtd"));
   var applePrice = localStorage.getItem("advCap_applePrice");
   var appleRent = localStorage.getItem("advCap_appleRent");
 
