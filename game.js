@@ -19,7 +19,7 @@ if (localStorage.getItem("advCap_Save") !== null) {
   var lemonPrice = Number(localStorage.getItem("advCap_lemonPrice"));
 
   var appleqtd = Number(localStorage.getItem("advCap_appleqtd"));
-  var applePrice = localStorage.getItem("advCap_applePrice");
+  var applePrice = Number(localStorage.getItem("advCap_applePrice"));
   var appleRent = localStorage.getItem("advCap_appleRent");
 
   // money = Number(money) //contructor number
