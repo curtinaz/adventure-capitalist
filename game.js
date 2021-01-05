@@ -14,7 +14,7 @@ if (typeof(Storage) !== "undefined") {
 // LoadState
 
 if (localStorage.getItem("advCap_Save") !== null) {
-  var money = localStorage.getItem("advCap_Save");
+  var money = Number(localStorage.getItem("advCap_Save"));
   var lemonqtd = localStorage.getItem("advCap_lemonqtd");
   var lemonPrice = localStorage.getItem("advCap_lemonPrice");
 
@@ -22,7 +22,7 @@ if (localStorage.getItem("advCap_Save") !== null) {
   var applePrice = localStorage.getItem("advCap_applePrice");
   var appleRent = localStorage.getItem("advCap_appleRent");
 
-  money = Number(money) //contructor number
+  // money = Number(money) //contructor number
   lemonqtd = Number(lemonqtd) //contructor number
   lemonPrice = Number(lemonPrice) //contructor number
 
