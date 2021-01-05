@@ -20,7 +20,7 @@ body, section {
 }
 
 section {
-    width: 80%;
+    width: 95%;
 }
 
 #moneyBox, #versionBox {
@@ -49,7 +49,7 @@ section {
     border: 1px black solid;
     border-radius: 5px;
     padding: 15px;
-    width: 35%;
+    width: 45%;
     cursor: pointer;
     margin-top: 5px;
 }
