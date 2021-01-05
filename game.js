@@ -142,7 +142,7 @@ function buyApple() {
       //   lemon_dezena=2;
       // }
 
-      appleRent = appleqtd*25;
+      appleRent = appleqtd*20;
 
       // MENSAGEM DE SUCESSO
       console.log("Maçã comprada")
