@@ -22,10 +22,6 @@ if (localStorage.getItem("advCap_Save") !== null) {
   var applePrice = Number(localStorage.getItem("advCap_applePrice"));
   var appleRent = Number(localStorage.getItem("advCap_appleRent"));
 
-  // money = Number(money) //contructor number
-  // lemonqtd = Number(lemonqtd) //contructor number
-  // lemonPrice = Number(lemonPrice) //contructor number
-
   // Abaixo, todos os modificadores
 
   agro = Number(localStorage.getItem("advCap_agro"));
