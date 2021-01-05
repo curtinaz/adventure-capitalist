@@ -26,10 +26,6 @@ if (localStorage.getItem("advCap_Save") !== null) {
   // lemonqtd = Number(lemonqtd) //contructor number
   // lemonPrice = Number(lemonPrice) //contructor number
 
-  // appleqtd = Number(appleqtd) //contructor number
-  // applePrice = Number(applePrice) //contructor number
-  // appleRent = Number(appleRent) //contructor number
-
   // Abaixo, todos os modificadores
 
   agro = Number(localStorage.getItem("advCap_agro"));
