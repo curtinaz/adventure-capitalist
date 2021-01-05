@@ -146,7 +146,7 @@ function buyApple() {
       appleRent = appleqtd*25;
 
       // MENSAGEM DE SUCESSO
-      console.log("Limão comprado")
+      console.log("Maçã comprada")
   } else {
       console.log("Dinheiro insuficiente")
   }
