@@ -33,11 +33,11 @@ if (localStorage.getItem("advCap_Save") !== null) {
   // Abaixo, todos os modificadores
 
   agro = Number(localStorage.getItem("advCap_agro"));
-  agro = Number(agro);
+  // agro = Number(agro);
 
-  if (agro==0) {
-    agro = 1;
-  }
+  // if (agro==0) {
+  //   agro = 1;
+  // }
 
   if (agro==0) {
     agro = 1;
