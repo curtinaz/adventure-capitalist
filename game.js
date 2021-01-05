@@ -36,7 +36,7 @@ if (localStorage.getItem("advCap_Save") !== null) {
 
   // =================== 
 
-  lemon_dezena = localStorage.getItem("advCap_dezena");
+  lemon_dezena = Number(localStorage.getItem("advCap_dezena"));
   lemon_dezena = Number(lemon_dezena);
 
   if (lemon_dezena==0) {
