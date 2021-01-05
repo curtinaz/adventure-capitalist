@@ -222,7 +222,7 @@ var lemon_rent = lemonqtd*agro // Rentabilidade do Limão
 //   Matemática do dinheiro
 
 function moneyMath() {
-    money = money + appleRent + ((lemonqtd*agro)*lemon_dezena);
+    money = ((money+appleRent)+((lemonqtd*agro)*lemon_dezena));
     document.querySelector('#money').innerHTML = money.toFixed(2); // Altera o dinheiro atual
     document.querySelector('#moneypersecond').innerHTML = (appleRent+((lemonqtd*agro)*lemon_dezena)).toFixed(2); // Altera o dinheiro atual
 }
