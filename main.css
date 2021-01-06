@@ -28,7 +28,7 @@ section {
 
 #moneyBox, .PriceBox, #versionBox, section {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
 
 /* .product_info {
