@@ -21,6 +21,7 @@ body {
 section {
     display: grid;
     width: 95%;
+    grid-template-columns: 1fr 1fr;
 }
 
 #moneyBox, #versionBox {
