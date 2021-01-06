@@ -22,6 +22,8 @@ section {
     display: grid;
     width: 95%;
     grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
 }
 
 #moneyBox, #versionBox {
