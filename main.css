@@ -33,6 +33,10 @@ section {
     justify-content: center;
 }
 
+.PriceBox {
+    justify-content: left;
+}
+
 /* .product_info {
     width: 10%;
 }
