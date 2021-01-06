@@ -61,4 +61,5 @@ section {
 
 .product + .product {
     margin-left: 10px;
+    margin-right: 0;
 }
