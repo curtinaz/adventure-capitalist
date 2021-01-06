@@ -14,7 +14,6 @@
 
 body, section {
     display: grid;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -28,7 +27,7 @@ section {
 }
 
 #moneyBox, .PriceBox, #versionBox, section {
-    display: grid;
+    display: flex;
     flex-direction: row;
 }
 
