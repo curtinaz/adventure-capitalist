@@ -12,13 +12,14 @@
     -ms-user-select: none;
 }
 
-body, section {
+body {
     display: grid;
     justify-content: center;
     align-items: center;
 }
 
 section {
+    display: grid;
     width: 95%;
 }
 
