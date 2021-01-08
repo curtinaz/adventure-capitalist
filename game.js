@@ -158,6 +158,7 @@ footerBtn.addEventListener("click", footerMenu, true);
 function footerMenu() {
   footerBtn.classList.add('is-active')
   footerBtn.addEventListener("click", footerMenuOff);
+  console.log("Open")
 }
 
 function footerMenuOff() {
