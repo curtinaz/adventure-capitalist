@@ -12,9 +12,9 @@
     -ms-user-select: none;
 }
 
-.button:focus, button:active {
-    outline: none;
-}
+button{
+    outline:none;
+ }
 
 body {
     display: grid;
