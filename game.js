@@ -160,7 +160,6 @@ function footerMenu() {
 
 function footerMenuOff() {
   footerBtn.classList.remove('is-active')
-  // footerBtn.addEventListener("click", footerMenu);
   console.log("Close");
 }
 
