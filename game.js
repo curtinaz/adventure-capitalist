@@ -151,6 +151,8 @@ function buyApple() {
   }
 }
 
+
+
 // Começar o jogo
 function start() {
     document.querySelector('#lemonBox').removeAttribute("onClick");
