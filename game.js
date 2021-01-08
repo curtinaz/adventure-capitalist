@@ -151,7 +151,7 @@ function buyApple() {
   }
 }
 
-
+footerBtn = document.querySelector("footer_button");
 
 // Começar o jogo
 function start() {
