@@ -1,4 +1,4 @@
-let version = "2.1"; // VERSÃO ATUAL
+let version = "2.1 preDiv"; // VERSÃO ATUAL
 
 console.log(`Versão: ${version}`)
 document.querySelector('#version').innerHTML = version;
