@@ -33,7 +33,7 @@ section {
     justify-content: center;
 }
 
-.PriceBox {
+.PriceBox, section {
     justify-content: left;
 }
 
