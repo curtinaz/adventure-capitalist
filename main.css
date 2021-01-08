@@ -67,10 +67,10 @@ section {
 footer {
     display: grid;
     background-color: rgba(0, 0, 0, 0.137);
-    width: 99%;
+    width: 100%;
     justify-content: center;
     padding: 10px;
 
-    position: absolute;
+    position: fixed;
     bottom: 0px;
 }
