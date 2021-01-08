@@ -12,6 +12,10 @@
     -ms-user-select: none;
 }
 
+.button:focus, button:active {
+    outline: none;
+}
+
 body {
     display: grid;
     justify-content: center;
