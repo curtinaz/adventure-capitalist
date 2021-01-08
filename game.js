@@ -153,6 +153,12 @@ function buyApple() {
 
 footerBtn = document.querySelector("#footer_button");
 
+footerBtn.addEventListener(click, footerMenu());
+
+function footerMenu() {
+
+}
+
 // Começar o jogo
 function start() {
     document.querySelector('#lemonBox').removeAttribute("onClick");
