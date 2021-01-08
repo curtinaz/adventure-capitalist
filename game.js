@@ -161,6 +161,7 @@ function footerMenu() {
 
 function footerMenuOff() {
   footerBtn.classList.remove('is-active')
+  footerBtn.setAttribute('onClick', 'footerMenu()')
   console.log("Close");
 }
 
