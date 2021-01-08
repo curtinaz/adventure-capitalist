@@ -16,11 +16,11 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 section {
     display: grid;
-    width: 95%;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -62,4 +62,15 @@ section {
 
 .product + .product {
     margin-left: 10px;
+}
+
+footer {
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.137);
+    width: 99%;
+    justify-content: center;
+    padding: 10px;
+
+    position: absolute;
+    bottom: 0px;
 }
