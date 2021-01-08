@@ -156,7 +156,6 @@ footerBtn = document.querySelector("#footer_button");
 function footerMenu() {
   footerBtn.classList.add('is-active')
   footerBtn.setAttribute('onClick', 'footerMenuOff()')
-  console.log("Open");
 }
 
 function footerMenuOff() {
