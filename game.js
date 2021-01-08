@@ -156,7 +156,7 @@ footerBtn = document.querySelector("#footer_button");
 footerBtn.addEventListener(click, footerMenu());
 
 function footerMenu() {
-
+  footerBtn.addClassName(is-active)
 }
 
 // Começar o jogo
