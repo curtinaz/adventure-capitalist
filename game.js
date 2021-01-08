@@ -153,7 +153,7 @@ function buyApple() {
 
 footerBtn = document.querySelector("#footer_button");
 
-footerBtn.addEventListener("click", footerMenu);
+footerBtn.addEventListener("click", footerMenu, true);
 
 function footerMenu() {
   footerBtn.classList.add('is-active')
@@ -162,7 +162,7 @@ function footerMenu() {
 
 function footerMenuOff() {
   footerBtn.classList.remove('is-active')
-  footerBtn.addEventListener("click", footerMenu);
+  // footerBtn.addEventListener("click", footerMenu);
 }
 
 // Começar o jogo
