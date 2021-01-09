@@ -103,3 +103,9 @@ footer {
 
 
 /* INICIO DA VERSÃO DESKTOP */
+
+@media screen and (min-width: 900px) {
+    article {
+      padding: 1rem 3rem;
+    }
+  }
