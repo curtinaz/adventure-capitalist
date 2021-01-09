@@ -41,6 +41,10 @@ section {
     align-items: center;
 }
 
+#moneyBox p + p {
+    margin-left: 5px;
+}
+
 #moneyBox, #versionBox {
     margin: 30px 0;
 }
