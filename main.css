@@ -38,6 +38,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    #moeda {
+        
+    }
+
     #money {
         font-size: 8vw;
     }
