@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
 @media (min-width:320px)  {
-    
+
+    * {
+        padding: 0;
+        border: 0;
+        margin: 0;
+    }
+
 }
 
-* {
-    padding: 0;
-    border: 0;
-    margin: 0;
-}
+
 
 .noselect, body {
     user-select: none;
