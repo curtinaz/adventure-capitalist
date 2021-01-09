@@ -100,5 +100,16 @@ footer {
     bottom: 0px;
 }
 
+/* INICIO DA VERSÃO DESKTOP */
 
+@media (min-width:961px) {
+    #moeda {
+        font-size: 3vw;
+    }
+    #money {
+        font-size: 4vw;
+    }
+  }
+
+/* FIM DA VERSÃO DESKTOP */
 
