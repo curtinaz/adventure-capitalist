@@ -110,7 +110,7 @@
 
 /* INICIO DA VERSÃO DESKTOP */
 
-@media (min-width:961px) {
+@media (min-width:641px) {
     #moeda {
         font-size: 3vw;
     }
