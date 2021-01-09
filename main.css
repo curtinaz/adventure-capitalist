@@ -71,7 +71,9 @@ section {
     display: none;
 } */
 
-
+.lemonPicture {
+    background-image: url("./images/products/lemon.png");
+}
 
 .product {
     border: 1px black solid;
