@@ -49,7 +49,7 @@ section {
     justify-content: center;
 }
 
-.PriceBox, section,  {
+.PriceBox, section, #moneyBox {
     justify-content: left;
 }
 
