@@ -8,6 +8,101 @@
         margin: 0;
     }
 
+    .noselect, body {
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-touch-select: none;
+        -ms-user-select: none;
+    }
+    
+    footer button{
+        outline:none;
+     }
+    
+    body {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #736960;
+        color: white;
+    }
+    
+    header {
+        margin-bottom: 10px;
+    }
+    
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #moneyBox {
+        font-family: 'Yusei Magic', sans-serif;
+        align-items: center;
+    }
+    
+    #moneyBox p + p {
+        margin-left: 5px;
+    }
+    
+    #moneyBox, #versionBox {
+        margin: 30px 0;
+    }
+    
+    #moneyBox, .PriceBox, #versionBox, section {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .PriceBox, section, #moneyBox {
+        justify-content: left;
+    }
+    
+    /* .product_info {
+        width: 10%;
+    }
+    
+    .product_info img {
+        width: 100%;
+    }
+    
+    .product_info p {
+        position: absolute;
+        display: none;
+    } */
+    
+    .lemonPicture, #lemonPic {
+        background-image: url("./images/products/lemon.png");
+    }
+    
+    .product {
+        border: 1px black solid;
+        border-radius: 5px;
+        padding: 15px;
+        width: 35vw;
+        cursor: pointer;
+        margin-top: 5px;
+        justify-content: center;
+    }
+    
+    .product + .product {
+        margin-left: 10px;
+    }
+    
+    footer {
+        display: grid;
+        background-color: rgba(0, 0, 0, 0.137);
+        width: 100%;
+        justify-content: center;
+        padding: 10px;
+    
+        position: fixed;
+        bottom: 0px;
+    }
+    
+
 }
 
 
