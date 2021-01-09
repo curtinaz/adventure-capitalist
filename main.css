@@ -9,15 +9,12 @@
 /* INICIO DA VERSÃO DESKTOP */
 
 @media (min-width:961px) {
-
     #moeda {
         font-size: 3px;
     }
-
     #money {
         font-size: 4px;
     }
-
   }
 
 /* FIM DA VERSÃO DESKTOP */
