@@ -25,6 +25,10 @@ body {
     color: white;
 }
 
+header {
+    margin-bottom: 10px;
+}
+
 section {
     display: grid;
     grid-template-columns: 1fr 1fr;
