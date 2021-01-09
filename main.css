@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
-@media (min-width:320px)  {
-
     * {
         padding: 0;
         border: 0;
@@ -109,8 +107,6 @@
         position: fixed;
         bottom: 0px;
     }    
-
-}
 
 /* INICIO DA VERSÃO DESKTOP */
 
