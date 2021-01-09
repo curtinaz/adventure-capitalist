@@ -71,7 +71,7 @@ section {
     display: none;
 } */
 
-.lemonPicture {
+.lemonPicture, #lemonPic {
     background-image: url("./images/products/lemon.png");
 }
 
