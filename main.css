@@ -8,7 +8,7 @@
 
 /* INICIO DA VERSÃO DESKTOP */
 
-@media screen and (min-width: 900px) {
+@media (min-width:961px) {
 
     #moeda {
         font-size: 3px;
