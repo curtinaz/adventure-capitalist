@@ -38,6 +38,7 @@ section {
 
 #moneyBox {
     font-family: 'Yusei Magic', sans-serif;
+    align-items: center;
 }
 
 #moneyBox, #versionBox {
