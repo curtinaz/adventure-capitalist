@@ -10,10 +10,10 @@
 
 @media (min-width:961px) {
     #moeda {
-        font-size: 3px;
+        font-size: 3vw;
     }
     #money {
-        font-size: 4px;
+        font-size: 4vw;
     }
   }
 
