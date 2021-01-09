@@ -107,7 +107,11 @@ footer {
 @media screen and (min-width: 900px) {
 
     #moeda {
+        font-size: 3px;
+    }
 
+    #money {
+        
     }
 
   }
