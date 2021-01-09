@@ -6,6 +6,22 @@
     margin: 0;
 }
 
+/* INICIO DA VERSÃO DESKTOP */
+
+@media screen and (min-width: 900px) {
+
+    #moeda {
+        font-size: 3px;
+    }
+
+    #money {
+        font-size: 4px;
+    }
+
+  }
+
+/* FIM DA VERSÃO DESKTOP */
+
 .noselect, body {
     user-select: none;
     -moz-user-select: none;
