@@ -21,6 +21,8 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-color: #736960;
+    color: white;
 }
 
 section {
