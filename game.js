@@ -240,8 +240,9 @@ function moneyMath() {
     if (money.toFixed(0).length>=7) {
       document.querySelector('#money').innerHTML = money.toFixed(0); // Altera o dinheiro atual (sem dígitos depois da virgula)
       document.querySelector('#milhar').innerHTML = "Milhões";
+    } else {
+      document.querySelector('#money').innerHTML = money.toFixed(2); // Altera o dinheiro atual
     }
-    document.querySelector('#money').innerHTML = money.toFixed(2); // Altera o dinheiro atual
     document.querySelector('#moneypersecond').innerHTML = (appleRent+((lemonqtd*agro)*lemon_dezena)).toFixed(2); // Altera o dinheiro atual
     
 
