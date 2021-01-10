@@ -40,8 +40,10 @@
     #moneyBox {
         font-family: 'Yusei Magic', sans-serif;
         display: grid;
-        align-items: center;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: left;
+
     }
 
     #moeda {
