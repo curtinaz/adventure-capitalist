@@ -242,7 +242,7 @@ function moneyMath() {
       document.querySelector('#milhar').innerHTML = "Milhões";
     } else {
       document.querySelector('#money').innerHTML = money.toFixed(2); // Altera o dinheiro atual (com dígitos depois da vírgula)
-      document.querySelector('#milhar').innerHTML = " ";
+      document.querySelector('#milhar').innerHTML = " ";
     }
     document.querySelector('#moneypersecond').innerHTML = (appleRent+((lemonqtd*agro)*lemon_dezena)).toFixed(2); // Altera o dinheiro atual
     
