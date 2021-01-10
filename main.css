@@ -36,6 +36,12 @@
         grid-template-columns: 1fr 1fr;
     }
 
+        
+    #moneyBox {
+        font-family: 'Yusei Magic', sans-serif;
+        align-items: center;
+    }
+
     #moeda {
         font-size: 6vw;
     }
