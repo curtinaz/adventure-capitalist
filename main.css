@@ -45,16 +45,6 @@
         justify-content: left;
     }
 
-    #linhasuperior {
-        grid-row-start: 0;
-        grid-row-end: 1;
-        grid-column-start: 0;
-        grid-column-end: 2;
-
-        display: grid;
-        grid-template-columns: 6vw, 100%-6vw;
-    }
-
     #moeda {
         font-size: 6vw;
     }
@@ -64,7 +54,8 @@
     }
 
     #milhar {
-        font-size: 4vw;
+        font-size: 2vw;
+        bottom: 0;
         grid-column-start: 2;
     }
     
@@ -132,6 +123,7 @@
 @media (min-width:641px) {
     #moeda {
         font-size: 3vw;
+        /* line-height: 50%; */
     }
     #money {
         font-size: 4vw;
