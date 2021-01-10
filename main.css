@@ -45,7 +45,6 @@
     }
 
     #milhar {
-        position: relative;
         bottom: 0;
     }
     
@@ -62,7 +61,7 @@
         margin: 30px 0;
     }
     
-    #moneyBox, .PriceBox, #versionBox, section {
+    .PriceBox, #versionBox, section {
         display: flex;
         justify-content: center;
     }
