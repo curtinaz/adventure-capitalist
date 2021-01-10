@@ -237,13 +237,13 @@ var lemon_rent = lemonqtd*agro // Rentabilidade do Limão
 function moneyMath() {
     money = ((money+appleRent)+((lemonqtd*agro)*lemon_dezena));
 
-    if (money.toFixed(0).length>=7) {
+    if (money.toFixed(0).length>=7&&money.toFixed(0).length<10) {
       document.querySelector('#money').innerHTML = money.toFixed(0); // Altera o dinheiro atual (sem dígitos depois da virgula)
       document.querySelector('#milhar').innerHTML = "Milhões";
-    } else if (money.toFixed(0).length>=10) {
+    } else if (money.toFixed(0).length>=10&&money.toFixed(0).length<13) {
       document.querySelector('#money').innerHTML = money.toFixed(0); // Altera o dinheiro atual (sem dígitos depois da virgula)
       document.querySelector('#milhar').innerHTML = "Bilhões";
-    } else if (money.toFixed(0).length>=13) {
+    } else if (money.toFixed(0).length>=13&&money.toFixed(0).length<16) {
       document.querySelector('#money').innerHTML = money.toFixed(0); // Altera o dinheiro atual (sem dígitos depois da virgula)
       document.querySelector('#milhar').innerHTML = "Trilhões";
     } else {
