@@ -240,6 +240,12 @@ function moneyMath() {
     if (money.toFixed(0).length>=7) {
       document.querySelector('#money').innerHTML = money.toFixed(0); // Altera o dinheiro atual (sem dígitos depois da virgula)
       document.querySelector('#milhar').innerHTML = "Milhões";
+    } else if (money.toFixed(0).length>=10) {
+      document.querySelector('#money').innerHTML = money.toFixed(0); // Altera o dinheiro atual (sem dígitos depois da virgula)
+      document.querySelector('#milhar').innerHTML = "Bilhões";
+    } else if (money.toFixed(0).length>=13) {
+      document.querySelector('#money').innerHTML = money.toFixed(0); // Altera o dinheiro atual (sem dígitos depois da virgula)
+      document.querySelector('#milhar').innerHTML = "Trilhões";
     } else {
       document.querySelector('#money').innerHTML = money.toFixed(2); // Altera o dinheiro atual (com dígitos depois da vírgula)
       document.querySelector('#milhar').innerHTML = " ";
