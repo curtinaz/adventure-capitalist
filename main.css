@@ -48,11 +48,6 @@
         bottom: 0;
     }
     
-    #moneyBox {
-        font-family: 'Yusei Magic', sans-serif;
-        align-items: center;
-    }
-    
     #moneyBox p + p {
         margin-left: 5px;
     }
