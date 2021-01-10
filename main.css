@@ -52,7 +52,6 @@
     #moneyBox {
         font-family: 'Yusei Magic', sans-serif;
         align-items: center;
-        position: static;
     }
     
     #moneyBox p + p {
