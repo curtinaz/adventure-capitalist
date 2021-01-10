@@ -46,6 +46,7 @@
 
     #milhar {
         position: relative;
+        bottom: 0;
     }
     
     #moneyBox {
