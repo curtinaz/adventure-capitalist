@@ -40,7 +40,7 @@
     #moneyBox {
         font-family: 'Yusei Magic', sans-serif;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 6vw, 100%-6vw;
         align-items: center;
         justify-content: left;
     }
@@ -54,6 +54,7 @@
     }
 
     #milhar {
+        font-size: 2vw;
         bottom: 0;
         grid-column-start: 2;
     }
