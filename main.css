@@ -123,6 +123,7 @@
 @media (min-width:641px) {
     #moeda {
         font-size: 3vw;
+        line-height: 60%;
     }
     #money {
         font-size: 4vw;
