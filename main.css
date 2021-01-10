@@ -39,6 +39,7 @@
         
     #moneyBox {
         font-family: 'Yusei Magic', sans-serif;
+        display: grid;
         align-items: center;
     }
 
