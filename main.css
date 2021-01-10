@@ -45,13 +45,14 @@
     }
 
     #milhar {
-        position: static;
+        position: relative;
         bottom: 0;
     }
     
     #moneyBox {
         font-family: 'Yusei Magic', sans-serif;
         align-items: center;
+        position: relative;
     }
     
     #moneyBox p + p {
