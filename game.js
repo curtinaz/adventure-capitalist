@@ -235,19 +235,19 @@ var lemon_rent = lemonqtd*agro // Rentabilidade do Limão
 //   Matemática do dinheiro
 
 function moneyMath() {
-    money = ((money+appleRent)+((lemonqtd*agro)*lemon_dezena));
+    moneyCount = ((money+appleRent)+((lemonqtd*agro)*lemon_dezena));
 
-    if (money.toFixed(0).length>=7&&money.toFixed(0).length<10) {
+    if (moneyCount.toFixed(0).length>=7&&moneyCount.toFixed(0).length<10) {
       document.querySelector('#money').innerHTML = money.toFixed(2).slice(0,3); // Altera o dinheiro atual (sem dígitos depois da virgula)
       document.querySelector('#milhar').innerHTML = "Milhões";
-    } else if (money.toFixed(0).length>=10&&money.toFixed(0).length<13) {
-      document.querySelector('#money').innerHTML = money.toFixed(2).slice(0,3); // Altera o dinheiro atual (sem dígitos depois da virgula)
+    } else if (moneyCount.toFixed(0).length>=10&&moneyCount.toFixed(0).length<13) {
+      document.querySelector('#money').innerHTML = moneyCount.toFixed(2).slice(0,3); // Altera o dinheiro atual (sem dígitos depois da virgula)
       document.querySelector('#milhar').innerHTML = "Bilhões";
-    } else if (money.toFixed(0).length>=13&&money.toFixed(0).length<16) {
+    } else if (moneyCount.toFixed(0).length>=13&&moneyCount.toFixed(0).length<16) {
       document.querySelector('#money').innerHTML = money.toFixed(2).slice(0,3); // Altera o dinheiro atual (sem dígitos depois da virgula)
       document.querySelector('#milhar').innerHTML = "Trilhões";
     } else {
-      document.querySelector('#money').innerHTML = money.toFixed(2); // Altera o dinheiro atual (com dígitos depois da vírgula)
+      document.querySelector('#money').innerHTML = moneyCount.toFixed(2); // Altera o dinheiro atual (com dígitos depois da vírgula)
       document.querySelector('#milhar').innerHTML = " ";
     }
     document.querySelector('#moneypersecond').innerHTML = (appleRent+((lemonqtd*agro)*lemon_dezena)).toFixed(2); // Altera o dinheiro atual
