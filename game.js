@@ -241,7 +241,7 @@ function moneyMath() {
       document.querySelector('#money').innerHTML = money.toFixed(0)[0,3]; // Altera o dinheiro atual (sem dígitos depois da virgula)
       document.querySelector('#milhar').innerHTML = "Milhões";
     } else if (money.toFixed(0).length>=10&&money.toFixed(0).length<13) {
-      document.querySelector('#money').innerHTML = money.toFixed(0); // Altera o dinheiro atual (sem dígitos depois da virgula)
+      document.querySelector('#money').innerHTML = money.toFixed(0)[0,3]; // Altera o dinheiro atual (sem dígitos depois da virgula)
       document.querySelector('#milhar').innerHTML = "Bilhões";
     } else if (money.toFixed(0).length>=13&&money.toFixed(0).length<16) {
       document.querySelector('#money').innerHTML = money.toFixed(0); // Altera o dinheiro atual (sem dígitos depois da virgula)
