@@ -47,8 +47,12 @@
 
     #linhasuperior {
         grid-row-start: 0;
+        grid-row-end: 1;
         grid-column-start: 0;
         grid-column-end: 2;
+
+        display: grid;
+        grid-template-columns: 6vw, 100%-6vw;
     }
 
     #moeda {
