@@ -45,7 +45,7 @@
     }
 
     #milhar {
-        justify-self: bottom;
+        align-self: bottom;
     }
     
     #moneyBox {
