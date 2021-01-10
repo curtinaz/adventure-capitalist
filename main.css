@@ -61,6 +61,7 @@
         grid-column-start: 2;
 
         text-transform: uppercase;
+        transition: 400ms;
     }
     
     #moneyBox p + p {
