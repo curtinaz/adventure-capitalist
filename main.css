@@ -43,6 +43,10 @@
     #money {
         font-size: 8vw;
     }
+
+    #milhar {
+        justify-self: bottom;
+    }
     
     #moneyBox {
         font-family: 'Yusei Magic', sans-serif;
