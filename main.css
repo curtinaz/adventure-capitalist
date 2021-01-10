@@ -55,6 +55,7 @@
 
     #milhar {
         bottom: 0;
+        grid-column-start: 2;
     }
     
     #moneyBox p + p {
