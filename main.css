@@ -45,6 +45,12 @@
         justify-content: left;
     }
 
+    #linhasuperior {
+        grid-row-start: 0;
+        grid-column-start: 0;
+        grid-column-end: 2;
+    }
+
     #moeda {
         font-size: 6vw;
     }
