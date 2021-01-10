@@ -45,7 +45,7 @@
     }
 
     #milhar {
-        position: relative;
+        position: static;
         bottom: 0;
     }
     
