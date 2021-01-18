@@ -176,7 +176,7 @@
     }
     to{
         opacity: 0;
-        modal.style="display: none"
+        display: none;
     }
 }
 
