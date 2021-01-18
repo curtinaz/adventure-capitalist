@@ -252,6 +252,8 @@ function footerMenu() {
   // console.log("Open");
   realMenu.style="display: initial"
   modal.style="display: initial"
+
+  modal.style.animation = 'nomeAnimacao 1s linear';
 }
 
 function footerMenuOff() {
