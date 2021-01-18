@@ -241,6 +241,21 @@ function moneyMath() {
 
 }
 
+
+footerBtn = document.querySelector("#footer_button");
+
+function footerMenu() {
+  footerBtn.classList.add('is-active')
+  footerBtn.setAttribute('onClick', 'footerMenuOff(), closeMenu()')
+  // console.log("Open");
+}
+
+function footerMenuOff() {
+  footerBtn.classList.remove('is-active')
+  footerBtn.setAttribute('onClick', 'footerMenu()')
+  // console.log("Close");
+}
+
 function openMenu() {
   document.querySelector('#menu').style="display: initial";
   console.log("openMenu function openned")
