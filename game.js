@@ -257,13 +257,13 @@ function moneyMath() {
 
 function openMenu() {
   document.querySelector('#menu').style="display: initial";
-  document.querySelector('#menu').setAttribute="onClick,footerMenu() closeMenu()"
+  document.querySelector('#footer_button').setAttribute="onClick,footerMenu() closeMenu()"
   console.log("openMenu function openned")
 }
 
 function closeMenu() {
   document.querySelector('#menu').style="display: none";
-  document.querySelector('#menu').setAttribute="footerMenu(), openMenu()"
+  document.querySelector('#footer_button').setAttribute="footerMenu(), openMenu()"
   console.log("openMenu function closed")
 }
 
