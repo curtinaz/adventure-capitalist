@@ -263,7 +263,7 @@ function openMenu() {
 
 function closeMenu() {
   document.querySelector('#menu').style="display: initial";
-  document.querySelector('#menu').setAttribute="footerMenu(), closeMenu()"
+  document.querySelector('#menu').setAttribute="footerMenu(), openMenu()"
   console.log("openMenu function openned")
 }
 
