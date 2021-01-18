@@ -136,6 +136,12 @@
     .menuItem {
         padding: 2px 5px 2px 5px;
         text-align: center;
+        background-color: ivory;
+        color: black;
+    }
+
+    #menu div+div {
+        margin-bottom: 2px;
     }
 
     #modal {
