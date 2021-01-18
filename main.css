@@ -116,7 +116,7 @@
         display: grid;
         width: 100%;
         justify-content: center;
-        padding: 2px;
+
     
         position: fixed;
         bottom: 0px;
@@ -129,6 +129,7 @@
         position: fixed;
         bottom: 0px;
         justify-content: center;
+        padding: 2px;
     }
 
     #menu {
