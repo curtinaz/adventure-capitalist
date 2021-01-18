@@ -249,13 +249,14 @@ function footerMenu() {
   footerBtn.classList.add('is-active')
   footerBtn.setAttribute('onClick', 'footerMenuOff()')
   // console.log("Open");
-  
+
 }
 
 function footerMenuOff() {
   footerBtn.classList.remove('is-active')
   footerBtn.setAttribute('onClick', 'footerMenu()')
   // console.log("Close");
+  
 }
 
 
