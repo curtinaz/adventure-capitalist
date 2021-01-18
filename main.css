@@ -128,9 +128,6 @@
         /* display: none; */
         position: relative;
         bottom: 10px;
-
-        display: grid;
-        justify-content: center;
     }
 
     .menuItem {
