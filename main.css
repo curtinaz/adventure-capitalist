@@ -172,7 +172,7 @@
 @keyframes fadeIn {
     from{
         opacity: 1;
-        modal.style="display: initial"
+        display: initial;
     }
     to{
         opacity: 0;
