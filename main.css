@@ -111,6 +111,16 @@
     .product + .product {
         margin-left: 10px;
     }
+    
+    footer {
+        display: grid;
+        width: 100%;
+        justify-content: center;
+        padding: 2px;
+    
+        position: fixed;
+        bottom: 0px;
+    }    
 
     footer #buttonBg {
         display: grid;
