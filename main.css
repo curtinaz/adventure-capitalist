@@ -123,6 +123,7 @@
     }    
 
     footer #buttonBg {
+        display: grid;
         background-color: rgba(0, 0, 0, 0.137);
         width: 100%;
         position: fixed;
