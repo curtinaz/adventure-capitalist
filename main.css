@@ -165,7 +165,7 @@
     }
     to{
         opacity: 1;
-        modal.style="display: initial"
+        display: initial;
     }
 }
 
