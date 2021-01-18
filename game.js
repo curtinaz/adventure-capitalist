@@ -259,6 +259,7 @@ function footerMenuOff() {
   footerBtn.setAttribute('onClick', 'footerMenu()')
   // console.log("Close");
   realMenu.style="display: none"
+  modal.style="display: none"
 }
 
 
