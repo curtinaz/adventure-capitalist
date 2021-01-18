@@ -122,12 +122,13 @@
         bottom: 0px;
 
         padding: 2px;
+        z-index: 999999;
     }    
 
     #menu {
         /* display: none; */
         position: relative;
-        z-index: 999999;
+
     }
 
     #modal {
