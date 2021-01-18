@@ -138,10 +138,7 @@
         text-align: center;
         background-color: ivory;
         color: black;
-    }
-
-    #menu div+div {
-        margin-bottom: 2px;
+        margin-bottom: 4px;
     }
 
     #modal {
