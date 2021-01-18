@@ -130,7 +130,9 @@
     }
 
     #buttonBg {
-        
+        background-color: blue;
+        width: 100%;
+        position: absolute;
     }
 
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
