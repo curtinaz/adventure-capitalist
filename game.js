@@ -252,7 +252,6 @@ function footerMenu() {
   // console.log("Open");
   realMenu.style="display: initial"
 
-  modal.style="display: none"
   modal.style.animation = 'fadeIn 0.25s linear';
 }
 
