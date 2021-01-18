@@ -116,6 +116,7 @@
         display: grid;
         width: 100%;
         justify-content: center;
+        justify-items: center;
 
         position: fixed;
         bottom: 0px;
