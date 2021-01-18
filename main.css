@@ -125,7 +125,7 @@
 
     #menu {
         /* display: none; */
-        position: fixed;
+        position: relative;
         bottom: 70px;
     }
 
