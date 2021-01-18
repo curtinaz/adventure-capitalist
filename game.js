@@ -256,7 +256,8 @@ function moneyMath() {
 }
 
 function openMenu() {
-  document.querySelector('#menu').style="display: initial"
+  document.querySelector('#menu').style="display: initial";
+  document.querySelector('#menu').setAttribute="footerMenu(), closeMenu()"
   console.log("openMenu function openned")
 }
 
