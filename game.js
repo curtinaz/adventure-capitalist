@@ -255,6 +255,10 @@ function moneyMath() {
 
 }
 
+const openMenu = () => {
+  
+}
+
 
 
 // Sounds
