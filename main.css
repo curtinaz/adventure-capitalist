@@ -132,11 +132,13 @@
     }
 
     .menuItem {
-        padding: 2px 5px 2px 5px;
+        font-family: 'Yusei Magic', sans-serif;
+        padding: 6px 14px 6px 14px;
         text-align: center;
         background-color: ivory;
         color: black;
-        margin-bottom: 4px;
+        margin-bottom: 6px;
+        border-radius: 4px;
     }
 
     #modal {
