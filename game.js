@@ -256,7 +256,7 @@ function moneyMath() {
 }
 
 const openMenu = () => {
-  
+  document.querySelector('#menu').style="display: initial"
 }
 
 
