@@ -252,6 +252,7 @@ function footerMenu() {
   // console.log("Open");
   realMenu.style="display: initial"
 
+  modal.style="display: initial"
 }
 
 function footerMenuOff() {
@@ -259,8 +260,8 @@ function footerMenuOff() {
   footerBtn.setAttribute('onClick', 'footerMenu()')
   // console.log("Close");
   realMenu.style="display: none"
-  modal.style="display: none"
 
+  modal.style="display: none"
 }
 
 
