@@ -264,7 +264,7 @@ function openMenu() {
 function closeMenu() {
   document.querySelector('#menu').style="display: none";
   document.querySelector('#menu').setAttribute="footerMenu(), openMenu()"
-  console.log("openMenu function openned")
+  console.log("openMenu function closed")
 }
 
 
