@@ -261,6 +261,12 @@ function openMenu() {
   console.log("openMenu function openned")
 }
 
+function closeMenu() {
+  document.querySelector('#menu').style="display: initial";
+  document.querySelector('#menu').setAttribute="footerMenu(), closeMenu()"
+  console.log("openMenu function openned")
+}
+
 
 
 // Sounds
