@@ -124,15 +124,6 @@
         padding: 2px;
     }    
 
-    footer #buttonBg {
-        display: grid;
-        background-color: rgba(0, 0, 0, 0.137);
-
-        bottom: 0px;
-        justify-content: center;
-
-    }
-
     #menu {
         /* display: none; */
         position: relative;
