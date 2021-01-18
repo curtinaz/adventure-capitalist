@@ -244,6 +244,7 @@ function moneyMath() {
 
 footerBtn = document.querySelector("#footer_button");
 realMenu = document.querySelector("#menu")
+modal = document.querySelector("#modal")
 
 function footerMenu() {
   footerBtn.classList.add('is-active')
