@@ -135,7 +135,6 @@
         height: 100%;
         z-index: 99999;
         background-color: rgba(0, 0, 0, 0.438);
-        opacity: 0;
         animation-fill-mode: forwards;
     }
 
