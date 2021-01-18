@@ -125,6 +125,8 @@
     footer #buttonBg {
         background-color: rgba(0, 0, 0, 0.137);
         width: 100%;
+        position: fixed;
+        bottom: 0px;
     }
 
     #menu {
