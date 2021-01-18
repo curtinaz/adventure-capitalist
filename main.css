@@ -127,6 +127,7 @@
     #menu {
         /* display: none; */
         position: relative;
+        bottom: 10px;
     }
 
     #modal {
