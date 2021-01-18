@@ -251,6 +251,7 @@ function footerMenu() {
   footerBtn.setAttribute('onClick', 'footerMenuOff()')
   // console.log("Open");
   realMenu.style="display: initial"
+  modal.style="display: initial"
 }
 
 function footerMenuOff() {
