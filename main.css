@@ -120,6 +120,8 @@
     
         position: fixed;
         bottom: 0px;
+
+        padding: 2px;
     }    
 
     footer #buttonBg {
@@ -129,7 +131,7 @@
         position: fixed;
         bottom: 0px;
         justify-content: center;
-        padding: 2px;
+
     }
 
     #menu {
