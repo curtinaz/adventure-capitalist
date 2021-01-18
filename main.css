@@ -130,6 +130,10 @@
         bottom: 10px;
     }
 
+    .menuItem {
+        padding: 5px;
+    }
+
     #modal {
         position: fixed;
         width: 100%;
